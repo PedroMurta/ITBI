@@ -27,6 +27,16 @@ body::-webkit-scrollbar {
     border: 2px solid #39343a;
   }
 
+th, td {
+  border: solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  
+  border-image-source: linear-gradient(60deg, #a096a3), #9fa8ad;
+}
+tr:hover {
+  
+}
 
 html {
   overflow-x: hidden;
@@ -63,6 +73,13 @@ a {
 h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
+  font-weight: 700;
+  color: rgb(134, 109, 109);
+}
+
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
   font-weight: 700;
   color: rgb(134, 109, 109);
 }
@@ -1185,6 +1202,8 @@ button:focus {
   margin-bottom: 15px;
 }
 
+
+
 .item-boxes p {
   margin: 0;
 }
@@ -1297,7 +1316,7 @@ button:focus {
 }
 
 .featured-bg {
-  background: #110a50;
+  background: #575280;
 }
 
 .featured-bg .intro-title {
@@ -1394,6 +1413,8 @@ button:focus {
   left: 50px;
   width: 100%;
 }
+
+
 
 .featured-box .featured-content h4 {
   font-size: 18px;
